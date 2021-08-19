@@ -1,5 +1,5 @@
 ## Посмотреть проект на GitHub Pages
-
+https://pavelvorobev.github.io/Metting-test/build/
 ## Краткая инструкция по работе
 ### Для начала работы у вас должент быть установлен:
 * Node.js v.10.15.3
