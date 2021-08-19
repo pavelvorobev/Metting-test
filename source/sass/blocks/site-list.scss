@@ -1,0 +1,18 @@
+.site-list {
+  @media (max-width: $width-desktop) {
+    border-bottom: 1px solid rgba($color-main, 0.6);
+  }
+}
+
+.site-list__item {
+  margin-right: 60px;
+  flex-grow: 1;
+
+  @media (max-width: 1100px) {
+    margin-right: 40px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

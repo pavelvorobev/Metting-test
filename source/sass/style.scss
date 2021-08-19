@@ -1,0 +1,19 @@
+/* Base */
+@import "./base/variables.scss";
+@import "./base/mixins.scss";
+@import "./base/reset.scss";
+@import "./base/fonts.scss";
+@import "./base/global.scss";
+@import "./base/visually-hidden.scss";
+@import "./base/container.scss";
+
+/* Blocks */
+@import "./blocks/header.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/site-list.scss";
+@import "./blocks/user-list.scss";
+@import "./blocks/button.scss";
+@import "./blocks/promo.scss";
+@import "./blocks/partners.scss";
+@import "./blocks/scores.scss";
+@import "./blocks/features.scss";

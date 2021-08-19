@@ -1,0 +1,59 @@
+.scores {
+  display: flex;
+}
+
+.scores__item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 93px;
+
+  @media (max-width: $width-tablet) {
+    margin-right: 76px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.scores__title {
+  margin-bottom: 10px;
+
+  @include fontMeasure(700, 60px, 70px);
+
+  @media (max-width: $width-tablet) {
+    margin-bottom: 11px;
+
+    @include fontMeasure(700, 40px, 50px);
+  }
+}
+
+.scores__description {
+  @include fontMeasure(400, 16px, 28px);
+
+  @media (max-width: $width-tablet) {
+    @include fontMeasure(400, 10px, 10px);
+  }
+}
+
+.scores__icons {
+  margin-bottom: 12px;
+
+  @media (max-width: $width-tablet) {
+    margin-bottom: 10;
+  }
+}
+
+.scores__downloads svg {
+  @media (max-width: $width-tablet) {
+    width: 9px;
+    height: 8px;
+  }
+}
+
+.scores__rating svg {
+  @media (max-width: $width-tablet) {
+    width: 9px;
+    height: 9px;
+  }
+}

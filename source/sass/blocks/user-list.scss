@@ -1,0 +1,28 @@
+.user-list__item {
+  margin-right: 45px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &--download a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 136px;
+    height: 52px;
+    background-color: $color-main;
+    color: $color-white;
+    border-radius: 6px;
+
+    &:hover {
+      color: $color-white;
+      background-color: rgba($color-main, 0.9);
+    }
+
+    &:active {
+      color: $color-white;
+      background-color: rgba($color-main, 0.8);
+    }
+  }
+}
