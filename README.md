@@ -1,7 +1,7 @@
 ## Посмотреть проект на GitHub Pages
 https://pavelvorobev.github.io/Metting-test/build/
 ## Краткая инструкция по работе
-### Для начала работы у вас должент быть установлен:
+### Для начала работы у вас должен быть установлен:
 * Node.js v.10.15.3
 * Gulp v4
 * npm last version
